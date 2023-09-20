@@ -1,3 +1,6 @@
+# write a program that deltes from a text file all words that start with the prefix "test". 
+# The words should contain only the symbols 0...9, a...z, A...Z, _
+
 import re
 class deleteLinesContainsText:
 
@@ -72,4 +75,4 @@ if __name__ == "__main__":
     deleteLinesContainsText.filter_words("/Users/carolinamachado/Documents/Development/DataStructuresPython/volume1/3.dicts_files/test_prefix.txt",
                                      "/Users/carolinamachado/Documents/Development/DataStructuresPython/volume1/3.dicts_files/test_prefix_filtered.txt")
     deleteLinesContainsText.filter_words_chat("/Users/carolinamachado/Documents/Development/DataStructuresPython/volume1/3.dicts_files/test_prefix.txt",
-    "/Users/carolinamachado/Documents/Development/DataStructuresPython/volume1/3.dicts_files/test_prefix_filtered.txt")
+    "/Users/carolinamachado/Documents/Development/DataStructuresPython/volume1/3.dicts_files/test_prefix_filtered_chat.txt")

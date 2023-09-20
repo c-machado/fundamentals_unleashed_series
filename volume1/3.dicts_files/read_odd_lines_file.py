@@ -1,3 +1,6 @@
+# write a program that reads a text file and prints on the console its odd lines
+
+
 class ReadFile:
 
     def read_txt_file():

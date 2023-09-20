@@ -1,14 +1,16 @@
+# write a program that concatenates two text files into another text file
+
 class ConcatenateFiles:
 
     def concat_files():
         with open("/Users/carolinamachado/Documents/Development/DataStructuresPython/volume1/3.dicts_files/test_at.txt", 'r') as file1:
             data_file1 = file1.read()
-            
         with open("/Users/carolinamachado/Documents/Development/DataStructuresPython/volume1/3.dicts_files/test_2.txt", 'r') as file2:
             data_file2 = file2.read()
         
-        data_file1 += "\n"
+        # data_file1 += "\n"
         data_file1 += data_file2
+        print(data_file1)
 
         with open ('/Users/carolinamachado/Documents/Development/DataStructuresPython/volume1/3.dicts_files/file3.txt', 'w') as file3:
             file3.write(data_file1)
@@ -21,11 +23,10 @@ class ConcatenateFiles:
              with open("/Users/carolinamachado/Documents/Development/DataStructuresPython/volume1/3.dicts_files/test_2.txt", 'r') as file2:
                 data_file2 = file2.read()
 
-             with open ('/Users/carolinamachado/Documents/Development/DataStructuresPython/volume1/3.dicts_files/file3.txt', 'w') as file3:
-                file3.write(data_file1)
-                file3.write(data_file2)
+             with open ('/Users/carolinamachado/Documents/Development/DataStructuresPython/volume1/3.dicts_files/concatenated_file.txt', 'w') as file3:
+                file3.writelines(data_file1)
+                file3.writelines(data_file2)
 
-            #  print(f'ConcatenateFiles{}')
         except FileNotFoundError:
             print(f'file not found')
         except Exception as e:
@@ -34,4 +35,4 @@ class ConcatenateFiles:
 if __name__ == "__main__":
 
 
-    ConcatenateFiles.concat_txt_files()
+    ConcatenateFiles.concat_files()

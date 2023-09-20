@@ -1,0 +1,29 @@
+def concatenate_files(input_file1, input_file2, output_file):
+    try:
+        # Open the first input file for reading
+        with open(input_file1, "r") as file1:
+            content1 = file1.read()
+
+        # Open the second input file for reading
+        with open(input_file2, "r") as file2:
+            content2 = file2.read()
+
+        # Open the output file for writing and concatenate the content
+        with open(output_file, "w") as output:
+            output.write(content1)
+            output.write(content2)
+
+        print(f"Concatenated files '{input_file1}' and '{input_file2}' into '{output_file}'.")
+
+    except FileNotFoundError:
+        print("File not found.")
+    except Exception as e:
+        print(f"An error occurred: {str(e)}")
+
+# Example usage:
+if __name__ == "__main__":
+    input_file1 = "/Users/carolinamachado/Documents/Development/DataStructuresPython/volume1/3.dicts_files/test_at.txt"  # Replace with the path to your first input file
+    input_file2 = "/Users/carolinamachado/Documents/Development/DataStructuresPython/volume1/3.dicts_files/test_2.txt"  # Replace with the path to your second input file
+    output_file = "/Users/carolinamachado/Documents/Development/DataStructuresPython/volume1/3.dicts_files/concatenated_file.txt"  # Replace with the desired output file path
+
+    concatenate_files(input_file1, input_file2, output_file)

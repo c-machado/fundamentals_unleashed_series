@@ -1,3 +1,6 @@
+# write a program that compares two text files line by line and prints the number of lines that are the same and the number of different lines.
+#  Assume the files have an equal number of lines
+
 class compareFileLines:
 
     def compare_content_of_lines():
@@ -11,13 +14,10 @@ class compareFileLines:
                 for line_1, line_2 in zip(lines_file_1, lines_file_2): 
                        if line_1 == line_2:
                             cont_same_content+=1
-                            print(f'line1 {line_1}, line_2{line_2}')
                        else:
                             cont_diff_content+=1
-                            print(f'line1 {line_1}, line_2{line_2}')
-
-                print(cont_same_content)
-                print(cont_diff_content)
+                print(f'Number of lines repeated: {cont_same_content}')
+                print(f'Number of lines different: {cont_diff_content}')
            
         except FileNotFoundError:
             print(f'file not found')

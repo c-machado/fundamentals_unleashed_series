@@ -52,3 +52,14 @@ if __name__ == "__main__":
     kitten = Kitten(5)
     print(f"Kind of animal{kitten}\nAnd produces this sound: '{kitten.produce_sound()}'")
 
+# Create a hierarchy of Animals. Your task is simple: there should be a base class which all others derive from. 
+# Your program should have 3 different animals dog, Frog and Cat. Create deeper hierarchy and add two additional 
+# classes Kitten which is Female and Tomcat which is male. Along with the animals there should be also a class which 
+# classifies its derived classes as sound producible. You may guss that all animals are sound producible. 
+# The only mandatory functionality of all sound producible objects is to ProduceSound(). 
+# For instance the dog should bark. Your task is to model the hierarchy  and test its functionality . 
+# Create an animal of each kind and make them produce sound. on the console, for each animal you've instantiated, 
+# print its info in three lines: on the first line, print:{kind of animal}, on the second line print: {name} {gender} {age} 
+# on the third print the sound it produces {produceSound()} each animal should have name, gender and age, if you enter
+#  invalid input for one of the properties throw an exception: 'invalid input;
+
