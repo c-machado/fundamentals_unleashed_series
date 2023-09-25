@@ -1,0 +1,42 @@
+﻿
+
+Exercises
+1.	Write JS code asking for your name and printing it.
+2.	Write JS code that prints the numbers 2, 202 and 2002.
+3.	Write JS code that prints the current date and time.
+4.	Write JS code that calculates and prints the square of the number 32346.
+5.	Declare two integer variables and assign them with 5 and 10 and after that exchange their values.
+
+Exercises
+1.	Write a method getMax() with two parameters that returns the bigger of two integers. Write a program that passes two integers and prints the biggest of them using the method getMax().
+
+Exercises
+1.	Write JS code that prints all the numbers from 1 to 30.
+2.	Write JS code that prints all the numbers from 1 to 30, that are not divisible by 3 and 7 at the same time.
+3.	Write JS code that allocates array of 20 integers and initializes each element by its index multiplied by 5. Print the obtained array on the console.
+Exercises
+1.	Write an expression that checks if given integer is odd or even.
+2.	Write an expression that calculates rectangle’s area by given width and height.
+3.	Write an expression that checks if given positive integer number n (n ≤ 100) is prime. E.g. 37 is prime.
+4.	Write an expression that calculates trapezoid's area by given sides a and b and height h.
+5.	Write an IF statement that examines two integer variables and exchanges their values if the first one is greater than the second one.
+6.	Write a program that shows the sign of the product of three real numbers without calculating it. Use a sequence of if statements.
+
+
+Exercises
+1.	You are asked to model an application for storing data about people. You should be able to have a person and a child. The child is derived of the person. The only constraints are:
+•	People should not be able to have negative age 
+•	Children should not be able to have age more than 15
+•	Person - represents the base class by which all others are implemented
+•	Define a constructor that accepts name and age
+2.	You are working in a library. The task is simple - your program should have two classes – one for the ordinary books - Book, and another for the special ones - GoldenEditionBook. 
+•	Book - represents a book that holds title, author, and price. A book should offer information about itself in the format shown in the output below.
+•	GoldenEditionBook - represents a special book holds the same properties as any Book, but its price is always 30% higher.
+•	If the author’s second name is starting with a digit - exception’s message is: "Author not valid!"
+•	If the title’s length is less than 3 symbols - exception’s message is: "Title not valid!"
+•	If the price is zero or it is negative - exception’s message is: "Price not valid!"
+•	Price must be formatted to one symbol after the decimal separator
+
+
+
+TODO: - ask Dimitrov
