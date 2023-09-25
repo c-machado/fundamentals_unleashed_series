@@ -1,0 +1,11 @@
+Exercises
+1.	Write three classes: Student, Course and School
+a.	Students should have name and unique number (inside the entire School)
+b.	Name cannot be empty, and the unique number is between 10000 and 99999.
+c.	Each course contains a set of students.
+d.	Students in a course should be less than 30 and can join and leave courses.
+2.	Create an MSTest test project and create tests for the classes that you created in 1.
+a.	Use 2 class library projects in Visual Studio: School.csproj and School.Tests.csproj
+
+
+NUnit + MSTest
